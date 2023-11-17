@@ -1,0 +1,7 @@
+@import "utils/variables";
+
+:root {
+    --tablet: #{$tablet}px;
+    --large: #{$large}px;
+    --desktop: #{$desktop}px;
+}

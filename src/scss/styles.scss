@@ -1,0 +1,22 @@
+@import "utils/utils";
+@import "partials/component";
+
+body {
+    background-color: lightblue;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../assets/tile.webp);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+
+    @include tablet {
+        background-color: lightgreen;
+    }
+
+    @include large {
+        background-color: lightyellow;
+    }
+
+    @include desktop {
+        background-color: lightpink;
+    }
+}
